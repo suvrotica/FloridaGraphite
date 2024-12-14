@@ -297,11 +297,13 @@ a {
     position: absolute;
     left: 0;
     width: 100%;
-    top: 0;
+    top: 20;
     z-index: 1024;
+    
 }
 .header-menu-wrap .custom-container {
     max-width: 1296px;
+    border: #13bba530 solid 1px;
 }
 .header-menu-wrap .custom-container .custom-row {
     align-items: center;
@@ -311,17 +313,18 @@ a {
     display: block;
     text-decoration: none;
     color: var(--primary);
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 800;
+    font-size: 60px;
+    
 }
 .header-menu-wrap .logo img {
-    max-width: 100px;
+    max-width: 150px;
     display: block;
 }
 .header-menu-wrap .navbar .menu {
     display: flex;
     align-content: center;
-    gap: 68px;
+    gap: 28px;
 }
 .header-menu-wrap .navbar .menu > li {
 
@@ -331,7 +334,7 @@ a {
     display: block;
     color: var(--secondary);
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 800;
     text-transform: uppercase;
     line-height: 20px;
     position: relative;
@@ -339,7 +342,7 @@ a {
     -webkit-transition: 0.3s;
 }
 .header-menu-wrap .navbar .menu li a > span {
-    font-size: 10px;
+    font-size: 20px;
     line-height: 12px;
 }
 .header-menu-wrap .navbar .menu li a:before {
@@ -396,7 +399,7 @@ a {
     visibility: hidden;
     z-index: 99;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(180deg, rgba(51, 51, 51, 0.3) 0%, rgba(26, 26, 26, 0.0305882) 100%);
+    background: linear-gradient(180deg, rgba(51, 51, 51, 0.3) 0%, #efefefdc 100%);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     overflow: hidden;
@@ -3039,4 +3042,25 @@ a {
 .footer-widget .theme-btn {
     padding-top: 14px;
     padding-bottom: 14px;
+}
+
+.crb-headline {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.crb-content-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-left: 10px;
+    color: var(--secondary);
+    justify-content:safe
+}   
+
+.funfact-box:hover .crb-stat-image {
+    opacity: 1 !important;
 }
