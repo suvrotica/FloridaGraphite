@@ -125,11 +125,8 @@
                 </div>
             </div>
         </div>
-
-    
     </main>
 
-    <div id="footer"></div>
     <!-- JavaScript to load the header -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -145,9 +142,7 @@
                 })
                 .catch(error => console.error(error));
         });
-        fetch('footer.html')
-            .then(response => response.text())
-            .then(data => document.getElementById('footer').innerHTML = data);
+        
     </script>
 
 
